@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+        font-size: 20px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #1B1464;
+    }
+
+    .inner-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        width: 40%;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        padding: 20px;
+        background: linear-gradient(89deg, #b721ff 0%, #21d4fd 100%);
+
+        input {
+            width: 60%;
+            outline: none;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 34px;
+        }
+
+        .ripple {
+            background-position: center;
+            transition: background 0.8s;
+          }
+          .ripple:hover {
+            background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+          }
+          .ripple:active {
+            background-color: #6c5ce7;
+            background-size: 100%;
+            transition: background 0s;
+          }
+          
+          /* Button style */
+          button {
+            border: none;
+            border-radius: 2px;
+            padding: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            color: white;
+            background-color: #6c5ce7;
+            outline: none;
+            font-family: 'IBM Plex Sans', sans-serif;
+            margin-left: 10px;
+          }
+    }
+}
