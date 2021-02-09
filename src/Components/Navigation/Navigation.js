@@ -7,7 +7,7 @@ const Navigation = () => {
         <nav>
             <ul className="navbar">
                 <li>Sign out</li>
-                <li>Info</li>
+                <li>About</li>
             </ul>
         </nav>
     )
