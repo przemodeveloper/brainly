@@ -1,0 +1,17 @@
+nav {
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        padding-inline-start: 0;
+        margin-right: 20px;
+
+        li {
+            padding: 15px;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 25px;
+        }
+    }
+
+}
